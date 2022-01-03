@@ -7,9 +7,13 @@
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^2.0.1",
+        "@iconify-json/mdi": "^1.0.12",
+        "@iconify-json/openmoji": "^1.0.5",
+        "@unocss/preset-icons": "^0.20.4",
         "laravel-vite": "^0.0.23",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
+        "unocss": "^0.20.4",
         "vite": "^2.7.10"
     },
     "dependencies": {

@@ -2,13 +2,13 @@ This is a reproduction for some problems in [Laravel](https://laravel.com) with 
 
 All this is defualt.
 
-When I under `pnpm dev`, it works fun. But when I compiled it via `pnpm build`, it only contained part of the file.
-
 ---
 
 -   1. Run Laravel serve
 
 ```
+composer install
+
 php artisan serve
 ```
 
@@ -17,6 +17,8 @@ php artisan serve
 In terminal of frontend.
 
 ```
+pnpm install
+
 pnpm dev
 ```
 
@@ -30,16 +32,6 @@ Still in terminal of frontend.
 pnpm build
 ```
 
-Build passed.
-
-But it just compile entrance file and some file reffrenced in it , and some index file at the first level in a directory, such as `pages/index.vue`, but not `pages/subs/index.vue`.
-
-After visit sub page, it will show error
-
-> Uncaught (in promise) Error: Unknown variable dynamic import: ./pages/subs/index.vue
-
 ---
 
-I don't know what mistake I made. And I haven't figured out which part is responsible for this.
-
-But Laravel and Inertia response seems ok.
+Frontend code in `resources/js`.
