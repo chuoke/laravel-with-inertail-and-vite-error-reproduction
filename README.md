@@ -2,7 +2,7 @@ This is a reproduction for some problems in [Laravel](https://laravel.com) with 
 
 All this is defualt.
 
-When I under `pnpm dev`, it works fun. But when I compiled it via `pnpm build`, it only contained part of the file.
+When I under `pnpm dev`, it works fun. But when I compiled it via `pnpm build`, it only contained part of files.
 
 ---
 
