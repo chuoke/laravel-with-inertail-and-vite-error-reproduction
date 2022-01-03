@@ -1,0 +1,13 @@
+{
+  "resources/js/app.ts": {
+    "file": "assets/app.2af3dc97.js",
+    "src": "resources/js/app.ts",
+    "isEntry": true,
+    "imports": [
+      "_vendor.2f551bbf.js"
+    ]
+  },
+  "_vendor.2f551bbf.js": {
+    "file": "assets/vendor.2f551bbf.js"
+  }
+}

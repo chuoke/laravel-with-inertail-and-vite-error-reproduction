@@ -1,0 +1,1 @@
+import{c as o,a as i,h as u}from"./vendor.2f551bbf.js";function a(e){switch(e){default:return new Promise(function(n,r){(typeof queueMicrotask=="function"?queueMicrotask:setTimeout)(r.bind(null,new Error("Unknown variable dynamic import: "+e)))})}}o({resolve:e=>a(`./pages/${e}.vue`),setup({el:e,app:n,props:r,plugin:t}){i({render:()=>u(n,r)}).use(t).mount(e)}});
