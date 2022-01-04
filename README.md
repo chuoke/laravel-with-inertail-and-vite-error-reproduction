@@ -6,8 +6,14 @@ All this is defualt.
 
 -   1. Run Laravel serve
 
+Copy `.env.example` to `.env`.
+
+Run following commands:
+
 ```
 composer install
+
+php artisan key:generate
 
 php artisan serve
 ```
